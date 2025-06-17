@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Programming Survey</title>
+</head>
+
+<body>
+    <h1>Programming Survey</h1>
+
+    <form action="#" method="post">
+        <!-- Question 1: Radio Buttons -->
+        <p><strong>What is your preferred programming language?</strong></p>
+        <input type="radio" id="html" name="language" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="radio" id="css" name="language" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="javascript" name="language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <!-- Question 2: Checkboxes -->
+        <p><strong>Which tools have you used before?</strong></p>
+        <input type="checkbox" id="vscode" name="tools" value="VS Code">
+        <label for="vscode">VS Code</label><br>
+
+        <input type="checkbox" id="sublime" name="tools" value="Sublime Text">
+        <label for="sublime">Sublime Text</label><br>
+
+        <input type="checkbox" id="notepad" name="tools" value="Notepad++">
+        <label for="notepad">Notepad++</label><br>
+
+        <input type="checkbox" id="atom" name="tools" value="Atom">
+        <label for="atom">Atom</label><br><br>
+
+        <!-- Dropdown menu -->
+        <label for="level"><strong>Your current level:</strong></label><br>
+        <select id="level" name="level">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="comments"><strong>Comments or Feedback:</strong></label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"
+            placeholder="Write your thoughts here..."></textarea><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit Survey">
+    </form>
+</body>
+
+</html>

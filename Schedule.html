@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Hourly Class Schedule</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 15px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    td {
+      background-color: #f9f9f9;
+    }
+    .time-slot {
+      font-weight: bold;
+    }
+    .class-name {
+      font-style: italic;
+    }
+    .empty {
+      background-color: #e7e7e7;
+    }
+    .multi-hour {
+      text-align: center;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Hourly Class Schedule</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="time-slot">Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="time-slot">09:00 - 10:00</td>
+        <td class="multi-hour" rowspan="2">Global Citizenship and Sustainability</td>
+        <td class="multi-hour" rowspan="3">Language-C</td>
+        <td class="empty"></td>
+        <td class="multi-hour" rowspan="2">Web Programming</td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td class="time-slot">10:00 - 11:00</td>
+        <!-- Monday: 9:00-10:50 continues -->
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td class="time-slot">11:00 - 12:00</td>
+        <td class="empty"></td>
+        <td class="class-name">Mentoring1_Self-Exploration</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td class="time-slot">12:00 - 01:00</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td class="time-slot">01:00 - 02:00</td>
+        <td class="class-name">Korean Comprehension 2</td>
+        <td class="empty"></td>
+        <td class="class-name">Linux System</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td class="time-slot">02:00 - 03:00</td>
+        <td class="class-name">Korean Comprehension 2</td>
+        <td class="empty"></td>
+        <td class="class-name">Linux System</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td class="time-slot">03:00 - 04:00</td>
+        <td class="class-name">Korean Expression 2</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td class="time-slot">04:00 - 05:00</td>
+        <td class="class-name">Korean Expression 2</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
